@@ -15,10 +15,10 @@
 
 # ── Who you are ─────────────────────────────────────────────
 
-name = "Juan Pérez"                # ← Required. Everything else is optional.
+name = "Daisy Dayoung Yoo"                # ← Required. Everything else is optional.
 
 # A short phrase describing you. Shows up big at the top of most templates.
-tagline = "Multimedia journalist telling the East Bay's stories"
+tagline = "Multimedia journalist Focusing on Data Analysis and Storytelling"
 
 location = "Berkeley, California"
 
@@ -29,7 +29,7 @@ location = "Berkeley, California"
 # that read the web, can tell who you are and where you work.
 # Fill them in if they apply to you. If not, leave them empty.
 
-job_title = "Multimedia Journalist"     # Your role, like "Reporter" or "Photojournalist"
+job_title = "Data & Multimedia Journalist"     # Your role, like "Reporter" or "Photojournalist"
 employer = "Richmond Confidential"      # Where you work, intern, or freelance most
 
 # ── The look of your site ───────────────────────────────────
@@ -44,19 +44,19 @@ employer = "Richmond Confidential"      # Where you work, intern, or freelance m
 #   "signal"     – huge bold headline, then a bright yellow band
 #   "harbor"     – deep teal with a portrait sidebar and serif type
 
-template = "newsprint"
+template = "signal"
 
 # ── How people reach you ────────────────────────────────────
 
-email = "juan.perez@example.com"
+email = "dayoung.yoo@berkeley.edu"
 phone = ""                          # e.g. "(510) 555-0123" — or leave empty
 
 # Paste any social media links here, one per line between the brackets.
 # The right icon appears automatically.
 socials = [
-  "https://www.instagram.com/example",
-  "https://www.linkedin.com/in/example",
-  "https://bsky.app/profile/example.bsky.social",
+  "",
+  "www.linkedin.com/in/daisy-yoo-2470b6336",
+  "",
 ]
 
 # ── Photos and files ────────────────────────────────────────
@@ -64,9 +64,9 @@ socials = [
 # Upload files to the "media" folder on GitHub, then write the
 # file's name here.
 
-banner_photo = "media/banner.jpg"   # A portrait or banner photo of you
-resume = "media/resume.pdf"         # A PDF of your resume (adds a Resume button)
-favicon = ""                        # Tiny browser-tab icon. Empty = made for you
+banner_photo = "media/DaisyDayoungYoo.jpg"   # A portrait or banner photo of you
+resume = "media/Berkeley2026_Resume_DaisyYoo.pdf"         # A PDF of your resume (adds a Resume button)
+favicon = "media/favicon.jpg"                        # Tiny browser-tab icon. Empty = made for you
 
 # ── About you ───────────────────────────────────────────────
 #
@@ -74,19 +74,17 @@ favicon = ""                        # Tiny browser-tab icon. Empty = made for yo
 # A blank line starts a new paragraph.
 
 bio = """
-I'm a journalism student at UC Berkeley with a focus on multimedia
-storytelling. I grew up in Fresno, where the kitchen radio was
-always tuned to the news. I've been hooked ever since.
+I’m a graduate journalism student at UC Berkeley focusing on data analysis and multimedia storytelling.
+My journey into journalism began at age seven when my dad took me on a trip to the World Cup.
+Traveling the world to watch games together fueled my passion for sports reporting.
 
-My reporting covers housing, transportation and food access in the East
-Bay. I write for Richmond Confidential and spent last summer as a
-reporting intern with the SF Chronicle, where I learned that the best
-stories usually start at a bus stop, a taquería or a city council
-meeting that runs past midnight.
+Covering games ultimately revealed that data and numbers are often the most honest starting points for a story.
+My reporting explores where data meets everyday life, ranging from sports analytics to local coverage in the East Bay. 
+I’m currently expanding my work into visual and interactive journalism to translate complex datasets into compelling graphics.
 
-When I'm not reporting, you'll find me photographing high school
-soccer, digging through city budget PDFs, or hunting down the Bay
-Area's best al pastor.
+Before coming to Berkeley, I studied Communication Journalism at the University of Utah.
+I worked as a broadcast anchor and covered the Utah Jazz as a sports writer.
+When I’m not reporting, you’ll usually find me digging through databases in R or Python or watching KBO.
 """
 
 # Optional extra line at the bottom of every page.
@@ -111,40 +109,49 @@ footer = ""
 # ── Published stories: give them a url and they link out ────
 
 [[work]]
-title = "City Council approves protected bike lanes for Telegraph Avenue"
-description = "After a decade of debate and three hours of public comment, Berkeley's City Council voted 7–2 to build protected bike lanes along one of the city's busiest corridors."
-url = "https://example.com/your-story-link-goes-here"
-image = "media/work/bike-lanes.jpg"
-date = "March 2026"
-category = "Journalism"
-outlet = "Berkeleyside"
-
-[[work]]
-title = "The wells are running dry: a Central Valley town confronts its future"
-description = "In Teviston, families have watched their taps sputter for years. Now a state grant promises relief — but the water table keeps falling faster than the money arrives."
-url = "https://example.com/your-story-link-goes-here"
-image = "media/work/drought.jpg"
-date = "January 2026"
-category = "Journalism"
-outlet = "The San Francisco Chronicle"
-
-[[work]]
-title = "As grocery prices climb, more Cal students turn to the campus food pantry"
-description = "Visits to the UC Berkeley Food Pantry have doubled in two years. Students, staff and volunteers describe the quiet logistics of keeping shelves stocked."
-url = "https://example.com/your-story-link-goes-here"
-image = "media/work/food-bank.jpg"
+title = "Which Big Man Archetype Should Define the Utah Jazz's Future?"
+description = "A tactical and data-informed analysis evaluating modern NBA center archetypes to identify the ideal frontcourt fit for Utah's rebuilding timeline."
+url = "https://theleadsm.com/which-big-man-archetype-should-define-the-utah-jazzs-future/"
+image = "media/work/thelead1.jpg"
 date = "November 2025"
-category = "Journalism"
-outlet = "The Daily Californian"
+category = "Sports Journalism"
+outlet = "The Lead"
+
+[[work]]
+title = "The Utah Jazz Need to Figure Out Who Is Closing Games"
+description = "An analytical breakdown of the Utah Jazz's Fourth Quarter execution issues, examining lineup decisions and clutch-time offensive roles."
+url = "https://theleadsm.com/the-utah-jazz-need-to-figure-out-who-is-closing-games/"
+image = "media/work/thelead2.jpg"
+date = "December 2026"
+category = "Sports Journalism"
+outlet = "The Lead"
+
+[[work]]
+title = "Walker Kessler and Lauri Markkanen Are Driving the Jazz"
+description = "An empirical study on how Utah's frontcourt duo controls internal spacing and defensive efficiency, serving as the core engine of the team."
+url = "https://theleadsm.com/walker-kessler-and-lauri-markkanen-are-driving-the-jazz/"
+image = "media/work/thelead3.jpg"
+date = "November 2025"
+category = "Sports Journalism"
+outlet = "The Lead"
 
 # This one has no image on purpose — the site still handles it gracefully.
 [[work]]
-title = "Opinion: Student journalism deserves a seat at the press table"
-description = "Student reporters cover city hall when no one else shows up. It's time public agencies treated them like the working press they are."
-url = "https://example.com/your-story-link-goes-here"
-date = "October 2025"
-category = "Journalism"
-outlet = "Richmond Confidential"
+title = "BBC World Service: Why North Korea is strong at women’s football"
+description = "Discussed the key factors behind North Korea's dominance in women's football as an invited expert panelist."
+url = "https://youtu.be/WXRALAmopyc?si=aZxRHXt6qoRwbXpX"
+date = "May 2026"
+category = "Podcast"
+outlet = "BBC World Service"
+
+[[work]]
+title = "KRCL Radio Feature: Voices of Utah's Women in Sports"
+description = "Produced and voiced a radio feature on women's sports for KRCL 90.9 FM in collaboration with Amplify Utah and the University of Utah."
+url = "https://journalism.utah.edu/voices-of-utah/womens-sports/yoo-daisy/index.php"
+date = "March 2025"
+category = "Podcast"
+outlet = "KRCL Radio"
+
 
 # ── A photo essay stored right here on your site ────────────
 #
@@ -153,8 +160,8 @@ outlet = "Richmond Confidential"
 
 [[work]]
 title = "Saturday at the farmers market"
-description = "Scenes from a morning at the downtown farmers market, where vendors set up before sunrise and regulars arrive with the same canvas bags every week."
-date = "February 2026"
+description = "An analytical review of the Utah Jazz's fluctuating season, examining player development under Will Hardy and the team's defensive execution challenges."
+date = "December 2025"
 category = "Photojournalism"
 photos = [
   "media/farmers-market/01-market-opening.jpg | Produce stands catch the first light as the market opens at 8 a.m.",
@@ -175,7 +182,7 @@ description = "An audio postcard revisiting the most famous sentence ever spoken
 audio = "media/audio/one-small-step.mp3"
 image = "media/work/apollo.jpg"
 date = "December 2025"
-category = "Multimedia"
+category = "Audio"
 
 # ── A video hosted on YouTube or Vimeo ──────────────────────
 #
@@ -187,7 +194,7 @@ title = "Video explainer: why we're going back to the Moon"
 description = "A short explainer on NASA's Artemis program, produced for my multimedia reporting class."
 video = "https://www.youtube.com/watch?v=vl6jn-DdafM"
 date = "September 2025"
-category = "Multimedia"
+category = "Video"
 
 
 # ============================================================
