@@ -135,6 +135,24 @@ date = "November 2025"
 category = "Sports Journalism"
 outlet = "The Lead"
 
+[[work]]
+title = "What is Georges Niang’s Role With Jazz Upon Return From Injury?"
+description = "Analyzed Georges Niang’s potential role with the Utah Jazz following his return from injury."
+url = "https://www.yardbarker.com/nba/articles/what_is_georges_niangs_role_with_jazz_upon_return_from_injury/s1_17659_42858227"
+image = "media/work/yardbarker1.jpg"
+date = "October 2025"
+category = "Sports Journalism"
+outlet = "The Lead Syndicated by Yardbarker"
+
+[[work]]
+title = "Keyonte George Is Emerging as Key Playmaker for Jazz"
+description = "Analyzed Keyonte George’s emergence as the Utah Jazz’s primary playmaker, highlighting his increased offensive responsibility, improved decision-making, and growing leadership."
+url = "https://sports.yahoo.com/article/keyonte-george-emerging-key-playmaker-230904697.html"
+image = "media/work/yardbarker2.jpg"
+date = "October 2025"
+category = "Sports Journalism"
+outlet = "The Lead Syndicated by Yahoo Sports"
+
 # This one has no image on purpose — the site still handles it gracefully.
 [[work]]
 title = "BBC World Service: Why North Korea is strong at women’s football"
