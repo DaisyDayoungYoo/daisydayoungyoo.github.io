@@ -153,6 +153,22 @@ date = "November 2025"
 category = "Sports Journalism"
 outlet = "The Lead"
 
+[[work]]
+title = "Photojournalism Assignment"
+description = "Photo assignment from UC Berkeley Journalism School."
+date = "September 2026"
+category = "Photojournalism"
+photos = [
+  "media/photo-assignment/repeating-pattern.jpg | Repeating Pattern",
+  "media/photo-assignment/perspective.jpg | Perspective",
+  "media/photo-assignment/rule-of-thirds.jpg | Rule of Thirds",
+  "media/photo-assignment/symmetry.jpg | Symmetry",
+  "media/photo-assignment/foreground-background.jpg | Foreground-background",
+  "media/photo-assignment/portrait.jpg | Portrait",
+  "media/photo-assignment/moment.jpg | Moment",
+  "media/photo-assignment/framing.jpg | Framing",
+]
+
 
 # This one has no image on purpose — the site still handles it gracefully.
 [[work]]
@@ -186,21 +202,6 @@ photos = [
   ""
 ]
 
-[[work]]
-title = "Photojournalism Assignment"
-description = "Photo assignment from UC Berkeley Journalism School."
-date = "September 2026"
-category = "Photojournalism"
-photos = [
-  "media/photo-assignment/repeating-pattern.jpg | Repeating Pattern",
-  "media/photo-assignment/perspective.jpg | Perspective",
-  "media/photo-assignment/rule-of-thirds.jpg | Rule of Thirds",
-  "media/photo-assignment/symmetry.jpg | Symmetry",
-  "media/photo-assignment/foreground-background.jpg | Foreground-background",
-  "media/photo-assignment/portrait.jpg | Portrait",
-  "media/photo-assignment/moment.jpg | Moment",
-  "media/photo-assignment/framing.jpg | Framing",
-]
 
 # ── An audio story stored on your site ──────────────────────
 #
