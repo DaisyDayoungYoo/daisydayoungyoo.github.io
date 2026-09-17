@@ -180,11 +180,26 @@ outlet = "KRCL Radio"
 [[work]]
 title = ""
 description = ""
-date = "December 2025"
+date = ""
+category = ""
+photos = [
+  ""
+]
+
+[[work]]
+title = "Photojournalism Assignment"
+description = "Photo assignment from UC Berkeley Journalism School."
+date = "September 2026"
 category = "Photojournalism"
 photos = [
-  "media/farmers-market/.jpg | Produce stands catch the first light as the market opens at 8 a.m.",
-  ""
+  "media/photo-assignment/repeating-pattern.jpg | Repeating Pattern",
+  "media/photo-assignment/perspective.jpg | Perspective",
+  "media/photo-assignment/rule-of-thirds.jpg | Rule of Thirds",
+  "media/photo-assignment/symmetry.jpg | Symmetry",
+  "media/photo-assignment/foreground-background.jpg | Foreground-background",
+  "media/photo-assignment/portrait.jpg | Portrait",
+  "media/photo-assignment/moment.jpg | Moment",
+  "media/photo-assignment/framing.jpg | Framing",
 ]
 
 # ── An audio story stored on your site ──────────────────────
@@ -195,10 +210,10 @@ photos = [
 [[work]]
 title = ""
 description = ""
-audio = "media/audio/.mp3"
-image = "media/work/.jpg"
+audio = ""
+image = ""
 date = ""
-category = "Audio"
+category = ""
 
 # ── A video hosted on YouTube or Vimeo ──────────────────────
 #
@@ -208,9 +223,9 @@ category = "Audio"
 [[work]]
 title = ""
 description = ""
-video = "link"
+video = ""
 date = ""
-category = "Video"
+category = ""
 
 
 # ============================================================
